@@ -46,6 +46,36 @@ Nmap (Network Mapper) is an open source tool for network exploration and securit
 - `nmap --script=<script>`: Use specific scripts for more detailed scanning.
 - `nmap -sC <target>`: Run default scripts for scanning.
 
+ ## Super Memory Trick
+
+Think of **Nmap Formula**:
+
+```
+nmap + scan type + ports + detection + speed + target
+```
+
+Example:
+
+```
+nmap -sS -p- -sV -T4 192.168.1.10
+```
+
+# 💡 Most Useful Command (Real-World)
+
+```
+nmap -sS -sV -T4 -p- <target>
+```
+
+Meaning:
+
+- SYN scan
+    
+- version detection
+    
+- fast timing
+    
+- all ports
+
 ## Tips
 
 - Always ensure that you have permission to scan a network.
