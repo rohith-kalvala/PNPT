@@ -1,14 +1,13 @@
+# Enumeration
 Enumeration is the phase where you go deeper after scanning to extract detailed information about services, users, shares, versions, etc.
 
 Here’s a clean, practical list of enumeration tools used in penetration testing 👇
 
-🔍 Enumeration Tools Cheat Sheet
-🌐 1. Network & Service Enumeration
+## 🔍 Enumeration Tools Cheat Sheet
+- 🌐 1. Network & Service Enumeration
 🔹 Nmap
-
 Service detection & scripts
-
-nmap -sV -sC target
+-`nmap -sV -sC target`
 🔹 Netcat
 
 Banner grabbing
