@@ -13,12 +13,12 @@
      - Port: 8080
    - Click OK
 
-3. Download the CA certificate from the proxy tool (e.g., Burp).
+3. Download the CA certificate from the proxy tool (e.g., Burp). ( first type https://burp) then you can download the certificate
 
 4. Import the certificate in Firefox:
    - Go to Settings → Privacy & Security → Certificates → View Certificates
    - Click Import
-   - Select the downloaded certificate and trust it
+   - Select the downloaded certificate and trust it ( check both the boxes) 
 
 5. Open the target website in the browser.
 
